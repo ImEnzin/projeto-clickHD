@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 50px;
+}
+
+body{
+    background-color: #001E47;
+}
+
+nav{
+    width: 100%;
+    background-color: #001E47;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px ;
+    box-shadow: 1px 1px 1px white ;
+}
+
+.nav-logo{
+    width: 70px;
+    height: auto;
+    
+}
+
+#logo{
+    width: 80px;
+}
+
+nav ul{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+#text{
+    color: white;
+    font-weight: 800;
+    background-color: orange;
+    padding: 2vh;
+    border-radius: 5px;
+}
+
+.titu-per{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#btn{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.produto-desta{
+    width: 100%;
+    height: 550px;
+    
+}
+
+.destaque{
+    width: 100%;
+}
+
+.destaque > p {
+    color: #FF703F;
+    font-size: 20px;
+}
+
+.destaque> h3{
+    font-size: 29px;
+    color: white;
+}
+
+/* CARD */
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: rgb(255, 145, 0) 0px 0.0625em 0.0625em, rgb(255, 115, 0) 0px 0.125em 0.5em, rgb(255, 136, 0) 0px 0px 0px 1px inset;
+}
+
+.card > h1{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card > p {
+    color: black;
+    text-align: justify;
+    padding: 5px;
+}
+
+.card > img{
+    width: 300px;
+    height:300px;
+    border-radius: 20px; 
+}
+
+/* quem somos */
+.container-sobre{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.container-sobre > h3{
+    font-size: 29px;
+    color: #FF703F;
+}
+
+.container-sobre > p{
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.titulo{
+    text-align: start;
+}
+
+.txt-sobre{
+    text-align: justify;
+}
+
+#btn-sobre{
+    color: white;
+    background-color: #FF703F;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
